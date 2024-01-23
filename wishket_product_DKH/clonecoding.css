@@ -1,19 +1,18 @@
 
 @font-face {
     font-family: "NotoSansKR";
-    src: url("/fonts/NotoSansKR-Regular.woff2") format ("woff2");
+    src: url("fonts/NotoSansKR-Regular.woff2") format("woff2");
 }
-
 @font-face {
     font-family:"NotoSansKRB";
-    src: url("fonts/NotoSansKR-Bold.woff2") format ("woff2");
+    src: url("fonts/NotoSansKR-Bold.otf") format("otf");
 
 }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'NotoSansKR',Sans-serif;
+    font-family: NotoSansKR,Sans-serif;
     line-height: 1rem;
     -webkit-font-smoothing: antialiased;
 }
@@ -66,6 +65,7 @@ header.header .container {
 }
 
 .container {
+    width: 1080px;
     margin: 0 auto;
 }
 
@@ -88,6 +88,7 @@ header.header .header-service-nav .btn-service-link .service-name {
 .caption-1 {
     font-size: 12px;
     font-weight: 400;
+    font-family : NotoSansKR;
 }
 
 header.header .header-service-nav .divider {
@@ -144,14 +145,168 @@ header.header .base-nav-guest-renewal .nav-logo-wrapper .nav-logo {
 header.header .base-nav-guest-renewal .left-nav {
     display: flex;
     gap: 4px;
+    float : left;
+}
+
+header.header .base-nav-guest-renewal .left-nav .left-nav-menu{
+    padding: 20px 12px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.text900 {
+    color: #212121;
+}
+
+.body-2 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+header.header .base-nav-guest-renewal .left-nav .left-nav-menu.pr-8{
+    padding-right: 8px;
+}
+
+header.header .base-nav-guest-renewal .left-nav .left-nav-menu .img-container{
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    
+}
+
+header.header .base-nav-guest-renewal .left-nav .dropdown-container .drop-down-list{
+    display: none;
+    position: absolute;
+    width: 200px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-left: -12px;
+    z-index: 999;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,.16);
 }
 
 
 
+header.header .base-nav-guest-renewal .left-nav .dropdown-container .drop-down-list .left-bar{
+    display: block;
+    width: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
 
+header.header .base-nav-guest-renewal .left-nav .dropdown-container .drop-down-list .left-bar .useguide {
+    background-image: url("/images/gradient-bar-1.png");
+    position: absolute;
+}
 
+header.header .base-nav-guest-renewal .left-nav .dropdown-container .drop-down-list .menu-list{
+    padding: 9px 0;
+}
 
+header.header .base-nav-guest-renewal .left-nav .dropdown-container .drop-down-list .menu-list .drop-down-menu{
+    width: 192px;
+    height: 40px;
+    padding: 8px 16px;
+    cursor: pointer;
 
+}
 
+header.header .base-nav-guest-renewal .left-nav .dropdown-container:hover{
+    .drop-down-list{
+        display:block;
+        
+    
+    }
+   
+}
 
+div {
+    display:block;
+}
 
+header.header .base-nav-guest-renewal .left-nav .dropdown-container .drop-down-list .left-bar.postscript {
+    background-image: (url("https://www.wishket.com/static/renewal/img/global/partner-gradient-bar.png") 1x, url("https://www.wishket.com/static/renewal/img/global/partner-gradient-bar@2x.png") 2x, url("https://www.wishket.com/static/renewal/img/global/partner-gradient-bar@3x.png") 3x);
+
+}
+
+header.header .base-nav-guest-renewal .left-nav .nav-divider{
+    margin: 25px 4px 0 4px;
+    height: 14px;
+    border-left: 1px solid #e0e0e0;
+}
+
+header.header .base-nav-guest-renewal .right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 64px;
+    position: relative;
+}
+
+header.header .base-nav-guest-renewal .right-nav .log-in-section{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 4px
+}
+
+header.header .base-nav-guest-renewal .right-nav .sign-up-button{
+    margin-left: 12px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: 8px;
+    color: #fff;
+    background: linear-gradient(180deg, #5db6d4, #369cc2 100%);
+    cursor: pointer;
+}
+
+.body-2-medium {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.gaia {
+    min-width: 1080px;
+    height: auto;
+    min-height: 70%;
+}
+.gaia:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+body.wishket-portfolio .wishket-portfolio-list {
+    padding-top: 48px;
+}
+
+body.wishket-portfolio .wishket-portfolio-list .list-header {
+    margin-bottom: 72px;
+}
+
+.text-wishket {
+    color: #3ba3c7;
+}
+
+.body-1-bold {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.mb8 {
+    margin-bottom: 8px;
+}
+
+.title-2{
+    
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+}
