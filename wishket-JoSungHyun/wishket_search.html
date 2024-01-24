@@ -138,7 +138,7 @@ href="#" style="background-image: url(&quot;https://cdn.wishket.com/guide/%EB%B9
             <div class="search-header">
                 <div class="page-title subtitle-1-medium" style="display: inline-block; font-weight: 500;">
                     프로젝트 찾기</div>
-                <div class="text-search-box" id="inner_text_search_box">
+                <div class="text-search-box" id="inner_text_search_box" >
                     <select class="wishket-select theme-wishket text-search-type" name="text_search_type"
                     style="display:none;">
                         <option value="a">전체</option>
@@ -147,16 +147,38 @@ href="#" style="background-image: url(&quot;https://cdn.wishket.com/guide/%EB%B9
                         <option value="s">관련 기술</option>
                         <option value="d">프로젝트 내용</option>
                 </select>
-                <div class="ui select wishket-select theme-wishket text-search-type" tabindex="0"
+                <div class="ui-select wishket-select theme-wishket text-search-type" tabindex="0"
                 style="width:100%;">
-                    <span class="select-box">
+                    <span class="select-box" style="height: 42px;">
                         <p class="select-name">전체</p>
                         <i class="select-icon">
+                            <svg class="select-icon" xmlns="http://www.w3.org/2000/svg" 
+                            width="14" height="14" viewBox="0 0 14 14">
+                                <path fill="none" fill-rule="evenodd" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M1 4l6 6 6-6">
+                                
+                            </path>
+                        </svg>
                             
                         </i>
                     </span>
-            
-            </div>
+                    <p class="selectBg"></p>
+                    <ul class="select-dropdown">
+                        <li data-select-value="a">전체</li>
+                        <li data-select-value="t">제목</li>
+                        <li data-select-value="s">관련 기술</li>
+                        <li data-select-value="d">프로젝트 내용</li>
+                    </ul>
+                </div>
+                <div class="default-input-type icon-right">
+                    <input autocomplete="off" class="theme-wishket wishket-text search-text"
+                    data-input-type="text-input" name="search_text" type="text" style="padding-right : 48px; height: 42px;">
+                    <span class="text-unit active" data-action-icon="search">
+                        <!-- <img src="img/icon-search@2x (1).png" srcset="img/icon-search.png 1x, 
+                        img/icon-search.png" style="margin-right:8px; cursor:pointer;">
+                            !-->
+                    </span> 
+                    
+                </div>
                 </div>
 
     <div class="search-filter-group">

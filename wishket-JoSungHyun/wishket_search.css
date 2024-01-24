@@ -409,6 +409,9 @@ div.text-search-box {
     overflow: auto;
 }
 
+
+
+
 .project-search .container .search-header #inner_text_search_box .wishket-select {
     left: 141px;
     z-index: 12;
@@ -454,16 +457,24 @@ ul li {
     -webkit-tap-highlight-color: transparent;
 }
 
-.project-search .container .search-header .text-search-box
-.search-text {
-    width: 300px;
-    margin: 0;
-    padding-left: 152px;
+.project-search .container .search-header #inner_text_search_box .wishket-select {
+    /* left: 141px; */
+    z-index: 12;
+    /* top: 1px; */
 }
+
+
 
 .project-search .container .search-header #inner_text_search_box .wishket-select {
     /* left: 141px; */
     z-index: 12;
+}
+
+.project-search .container .search-filter-group .search-filter-btn-group {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    width: 775px;
 }
 
 
