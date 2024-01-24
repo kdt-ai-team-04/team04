@@ -1,6 +1,6 @@
 @font-face {
     font-family: "NotoSansKR";
-    src: url('fonts/NotoSansKR-Regular.woff2') format('woff2');
+    src: url('fonts/NotoSansKR-Medium.woff2') format('woff2');
 }
 
 footer.footer a, footer.footer a:hover, footer.footer a:focus {
@@ -148,6 +148,11 @@ ul {
     width: 570px;
     height: 40px;
 }}
+
+.list-cover .list-item-link:last-child>.list-item {
+    border-bottom: none;
+    padding-bottom: 0;
+}
 
 .author-info .author-image {
     width: 20px;
@@ -542,6 +547,10 @@ button {
 
 .mr-4 {
     margin-right: 4px !important;
+}
+
+.mr-2 {
+    margin-right: 2px !important;
 }
 
 .content-meta .content-meta-elem {
