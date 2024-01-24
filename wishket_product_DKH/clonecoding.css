@@ -595,10 +595,15 @@ footer.footer .footer-company-info-sns a+a {
     margin-top: 32px;
 }
 
-.footer-contact {
+footer.footer .footer-contact {
     width: 292px;
     margin-right: 48px;
     float: left;
+}
+
+.footer-menu-list {
+    float: left;
+    width: 185px;
 }
 
 .footer-contact .footer-menu-title {
@@ -651,5 +656,108 @@ footer.footer .footer-company-info-sns a+a {
     margin-top: 4px;
     font-size: 13px;
     line-height: 20px;
+    font-weight: 400;
+}
+
+
+.footer .footer-menu-list .footer-menu-title {
+    color: #616161;
+    margin-bottom: 12px;
+    gap: 4px;
+}
+
+footer.footer .footer-menu-list .footer-menu-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer.footer .footer-menu-list .footer-menu-item {
+    display: block;
+    color: #616161;
+}
+footer.footer .footer-menu-list .footer-menu-item{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+footer.footer .footer-menu-list .footer-menu-item+.footer-menu-item {
+    margin-top: 8px;
+}
+
+footer.footer .footer-menu-list a.footer-menu-title {
+    display: flex;
+    align-items: center;
+}
+
+footer.footer .footer-menu-list .footer-menu-title {
+    color: #616161;
+    margin-bottom: 12px;
+    gap: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer.footer .footer-menu-list a.footer-menu-title.link-title:after {
+    content: "";
+    display: inline-block;
+    background-size: 12px 12px;
+    margin-left: 2px;
+    height: 12px;
+    width: 12px;
+    background-image: url("https://www.wishket.com/static/renewal/img/global/btn-icon-footer-go-xs-normal.png");
+    
+}
+
+footer.footer .footer-service-policy {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+footer.footer .footer-service-policy .footer-service-policy-item {
+    color: #616161;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+footer.footer .footer-service-policy .divider {
+    margin: 0px 12px;
+    width: 1px;
+    height: 13px;
+    background-color: #e0e0e0;
+}
+
+footer.footer .footer-company-info {
+    display: grid;
+    grid-gap: 4px;
+    padding-top: 12px;
+}
+
+footer.footer .footer-company-info .footer-company-info-list {
+    display: flex;
+    align-items: center;
+}
+footer.footer .footer-company-info-item {
+    color: #9e9e9e;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+footer.footer .footer-company-info .footer-company-info-list .divider {
+    width: 1px;
+    height: 12px;
+    background-color: #e0e0e0;
+    margin: 0px 8px;
+}
+
+footer.footer .footer-company-info .footer-company-info-copyright {
+    margin-top: 12px;
+    color: #9e9e9e;
+    font-size: 12px;
+    line-height: 18px;
     font-weight: 400;
 }
