@@ -1,0 +1,505 @@
+@font-face {
+    font-family: "NotoSansKR";
+    font-weight: 700;
+    src: url("/static/fonts/NotoSansKR-Bold.woff2") format("woff2"),url("/static/fonts/NotoSansKR-Bold.woff") format("woff"),url("/static/fonts/NotoSansKR-Bold.otf") format("opentype")
+}
+
+@font-face {
+    font-family: "NotoSansKR";
+    font-weight: 500;
+    src: url("/static/fonts/NotoSansKR-Medium.woff2") format("woff2"),url("/static/fonts/NotoSansKR-Medium.woff") format("woff"),url("/static/fonts/NotoSansKR-Medium.otf") format("opentype")
+}
+
+@font-face {
+    font-family: "NotoSansKR";
+    font-weight: 400;
+    src: url("/static/fonts/NotoSansKR-Regular.woff2") format("woff2"),url("/static/fonts/NotoSansKR-Regular.woff") format("woff"),url("/static/fonts/NotoSansKR-Regular.otf") format("opentype")
+}
+
+@font-face {
+    font-family: "NotoSansKR";
+    font-weight: 300;
+    src: url("/static/fonts/NotoSansKR-Light.woff2") format("woff2"),url("/static/fonts/NotoSansKR-Light.woff") format("woff"),url("/static/fonts/NotoSansKR-Light.otf") format("opentype")
+}
+
+@font-face {
+    font-family: "NotoSansKR";
+    font-weight: 100;
+    src: url("/static/fonts/NotoSansKR-Thin.woff2") format("woff2"),url("/static/fonts/NotoSansKR-Thin.woff") format("woff"),url("/static/fonts/NotoSansKR-Thin.otf") format("opentype")
+}
+
+ul {
+    list-style: none
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box
+}
+
+*:focus {
+    outline: none
+}
+
+a {
+    text-decoration: none;
+    color: #212121
+}
+
+* {
+    font-family: "NotoSansKR","Sans-serif";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased
+}
+
+body {
+    height: 100%;
+    background-color: #f5f5f5
+}
+
+html {
+    height: 100%
+}
+
+.title-1,.title-1-bold,.title-1-medium,.title-1-light {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px
+}
+
+.title-1-light {
+    font-weight: 300
+}
+
+.title-1-medium {
+    font-weight: 500
+}
+
+.title-1-bold {
+    font-weight: 700
+}
+
+.title-2,.title-2-bold,.title-2-medium,.title-2-light {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400
+}
+
+.title-2-light {
+    font-weight: 300
+}
+
+.title-2-medium {
+    font-weight: 500
+}
+
+.title-2-bold {
+    font-weight: 700
+}
+
+.subtitle-1,.subtitle-1-bold,.subtitle-1-medium,.subtitle-1-light {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400
+}
+
+.subtitle-1-light {
+    font-weight: 300
+}
+
+.subtitle-1-medium {
+    font-weight: 500
+}
+
+.subtitle-1-bold {
+    font-weight: 700
+}
+
+.subtitle-1-half,.subtitle-1-half-bold,.subtitle-1-half-medium,.subtitle-1-half-light {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400
+}
+
+.subtitle-1-half-light {
+    font-weight: 300
+}
+
+.subtitle-1-half-medium {
+    font-weight: 500
+}
+
+.subtitle-1-half-bold {
+    font-weight: 700
+}
+
+.subtitle-2,.subtitle-2-bold,.subtitle-2-medium,.subtitle-2-light {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400
+}
+
+.subtitle-2-light {
+    font-weight: 300
+}
+
+.subtitle-2-medium {
+    font-weight: 500
+}
+
+.subtitle-2-bold {
+    font-weight: 700
+}
+
+.text-button-1 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700
+}
+
+.body-1,.body-1-bold,.body-1-medium,.body-1-light {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400
+}
+
+.body-1-light {
+    font-weight: 300
+}
+
+.body-1-medium {
+    font-weight: 500
+}
+
+.body-1-bold {
+    font-weight: 700
+}
+
+.body-2,.body-2-bold,.body-2-medium,.body-2-light {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400
+}
+
+.body-2-light {
+    font-weight: 300
+}
+
+.body-2-medium {
+    font-weight: 500
+}
+
+.body-2-bold {
+    font-weight: 700
+}
+
+.body-3,.body-3-bold,.body-3-medium,.body-3-light {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400
+}
+
+.body-3-light {
+    font-weight: 300
+}
+
+.body-3-medium {
+    font-weight: 500
+}
+
+.body-3-bold {
+    font-weight: 700
+}
+
+.caption-1,.caption-1-bold,.caption-1-medium,.caption-1-light {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400
+}
+
+.caption-1-light {
+    font-weight: 300
+}
+
+.caption-1-medium {
+    font-weight: 500
+}
+
+.caption-1-bold {
+    font-weight: 700
+}
+
+.caption-2,.caption-2-bold,.caption-2-medium,.caption-2-light {
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 400
+}
+
+.caption-2-light {
+    font-weight: 300
+}
+
+.caption-2-medium {
+    font-weight: 500
+}
+
+.caption-2-bold {
+    font-weight: 700
+}
+
+.link-text {
+    text-decoration: none;
+    color: #3ba3c7;
+    display: inline-block
+}
+
+.link-text.disabled {
+    opacity: .4;
+    cursor: not-allowed !important
+}
+
+.keep-word {
+    word-break: keep-all
+}
+
+.no-size {
+    font-size: 0
+}
+
+.text200 {
+    color: #e0e0e0
+}
+
+.text300 {
+    color: #bdbdbd
+}
+
+.text400 {
+    color: #9e9e9e
+}
+
+.text500 {
+    color: #757575
+}
+
+.text600 {
+    color: #616161
+}
+
+.text700 {
+    color: #424242
+}
+
+.text800 {
+    color: #313131
+}
+
+.text900 {
+    color: #212121
+}
+
+.text000 {
+    color: #fff
+}
+
+.text-orange {
+    color: #ff6b21
+}
+
+.text-client {
+    color: #2e6baa
+}
+
+.text-partner {
+    color: #00a878
+}
+
+.text-wishket {
+    color: #3ba3c7
+}
+
+.text-white {
+    color: #fff
+}
+
+.text-red {
+    color: #e52929
+}
+
+.text-nowrap {
+    white-space: nowrap
+}
+
+.text-right {
+    text-align: right
+}
+
+.flex-box {
+    display: flex;
+    align-items: center
+}
+
+.flex-box.baseline {
+    align-items: baseline
+}
+
+.flex-box.start {
+    align-items: flex-start
+}
+
+.flex-box.space-between {
+    justify-content: space-between
+}
+
+.flex-box.content-center {
+    justify-content: center
+}
+
+.flex-box.wrap {
+    flex-wrap: wrap
+}
+
+.flex-box.gap-8 {
+    gap: 8px
+}
+
+.flex-box.gap-16 {
+    gap: 16px
+}
+
+.flex-box.inline {
+    display: inline-flex
+}
+
+.hide {
+    display: none
+}
+
+.btn.blur {
+    opacity: .2;
+    cursor: default
+}
+
+.mt4 {
+    margin-top: 4px
+}
+
+.mb12 {
+    margin-bottom: 12px
+}
+
+.radio-toggle-group .radio-toggle-row {
+    background-color: #f5f5f5;
+    display: inline-block;
+    border-radius: 4px 0 0 4px
+}
+
+.radio-toggle-group .radio-toggle-row+.radio-toggle-row {
+    border-radius: 0 4px 4px 0
+}
+
+.radio-toggle-group .radio-toggle-row .radio-toggle-input {
+    display: none
+}
+
+.radio-toggle-group .radio-toggle-row .radio-toggle-input:checked+.radio-toggle-label {
+    border: 1px solid #2e6baa;
+    color: #2e6baa;
+    background-color: #fff;
+    font-weight: 500
+}
+
+.radio-toggle-group .radio-toggle-row .radio-toggle-input:checked+.radio-toggle-label.theme-partner {
+    border-color: #00a878;
+    color: #00a878
+}
+
+.radio-toggle-group .radio-toggle-row .radio-toggle-label {
+    cursor: pointer;
+    text-align: center;
+    min-width: 64px;
+    display: block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    color: #bdbdbd
+}
+
+.tab-selector {
+    border: 1px solid #e0e0e0
+}
+
+.tab-selector .tab-category-selector {
+    display: inline-block;
+    width: 176px;
+    height: 340px;
+    vertical-align: top;
+    overflow-y: scroll;
+    border-right: 1px solid #e0e0e0
+}
+
+.tab-selector .tab-category-selector .tab-category-btn {
+    display: block;
+    padding: 8px 16px;
+    width: 100%;
+    cursor: pointer;
+    text-align: left
+}
+
+.tab-selector .tab-category-selector .tab-category-btn.active {
+    background-color: #f2fcff
+}
+
+.tab-selector .target-selector {
+    display: inline-block;
+    width: calc(100% - 176px);
+    vertical-align: top;
+    height: 340px;
+    overflow-y: auto
+}
+
+.tab-selector .target-selector .target-group {
+    display: none;
+    padding: 8px 16px
+}
+
+.tab-selector .target-selector .target-group.active {
+    display: block
+}
+
+.round-checkbox-option input {
+    display: none
+}
+
+.round-checkbox-option input+label {
+    cursor: pointer
+}
+
+.round-checkbox-option input+label:before {
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle
+}
+
+.round-checkbox-option input:checked+label:before {
+    background-image: url("/static/renewal/img/project/submit/input-checkbox-round-on.png");
+    background-image: -webkit-image-set(url("/static/renewal/img/project/submit/input-checkbox-round-on.png") 1x, url("/static/renewal/img/project/submit/input-checkbox-round-on@2x.png") 2x, url("/static/renewal/img/project/submit/input-checkbox-round-on@3x.png") 3x)
+}
+
+.round-checkbox-option input.theme-wishket:checked+label:before {
+    background-image: url("/static/renewal/img/component/input-checkbox-round-on.png");
+    background-image: -webkit-image-set(url("/static/renewal/img/component/input-checkbox-round-on.png") 1x, url("/static/renewal/img/component/input-checkbox-round-on@2x.png") 2x, url("/static/renewal/img/component/input-checkbox-round-on@3x.png") 3x)
+}
+
+.round-checkbox-option input:not(:checked)+label:before {
+    background-image: url("/static/renewal/img/project/submit/input-checkbox-round-off.png");
+    background-image: -webkit-image-set(url("/static/renewal/img/project/submit/input-checkbox-round-off.png") 1x, url("/static/renewal/img/project/submit/input-checkbox-round-off@2x.png") 2x, url("/static/renewal/img/project/submit/input-checkbox-round-off@3x.png") 3x)
+}
