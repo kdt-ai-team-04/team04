@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "NotoSansKR_B";
+    src: url("/static/fonts/NotoSansKR-Bold.ttf") format("typetrue");
+}
+
+@font-face {
+    font-family: "NotoSansKR_M";
+    src: url("/static/fonts/NotoSansKR-Medium.ttf") format("typetrue");
+}
+
+@media (min-width: 729px) {
+    .header-service-nav {
+        padding: 9px 0;
+    }
+}
+
+@media (min-width: 729px) {
+    .container {
+        width: 1080px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 729px) {
+    .container {
+        width: 1080px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 729px) {
+    .pc-only {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 729px) {
+    .header-gnb .sub-navigation-wrapper .sub-navigation {
+        padding: 24px 16px;
+    }
+}
+
+@media (min-width: 729px) {
+    .header-gnb .sub-navigation-wrapper .sub-navigation div {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+.header-service-nav .container {
+    display: flex;
+}
+
+.header-service-nav .btn-service-link {
+    gap: 4px;
+    display: flex;
+    cursor: pointer;
+}
+
+.header-service-nav {
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'NotoSansKR', Sans-serif;
+    line-height: 1rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.header-service-nav .btn-service-link .service-name {
+    line-height: 20px;
+    width: 100%;
+    font-family: NotoSansKR_M;
+}
+
+.text700 {
+    color: #424242;
+}
+
+.caption-1 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header-service-nav .divider {
+    height: 12px;
+    margin: 3px 12px 0px 12px;
+}
+
+.divider {
+    width: 1px;
+    background-color: #e0e0e0;
+}
+
+div {
+    display: block;
+}
+
+.header-service-nav .btn-service-link.other-services .menu-inactive {
+    display: block;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+.header-service-nav .btn-service-link.other-services .menu-active {
+    display: none;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.header-service-nav .btn-service-link.other-services .service-name {
+    color: #9e9e9e;
+}
+
+.header-service-nav .btn-service-link .service-name {
+    line-height: 20px;
+    width: 100%;
+}
+
+.header-gnb {
+    display: flex;
+    background-color: #fff;
+    height: 72px;
+}
+
+.header-gnb .header-gnb-wrapper {
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+.flex-box {
+    align-items: center;
+}
+
+.text900 {
+    color: #212121;
+}
+
+.body-2-medium {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
