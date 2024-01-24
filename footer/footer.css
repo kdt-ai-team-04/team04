@@ -1,0 +1,262 @@
+.noto-sans {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "나눔 고딕", "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    background-color: #f5f5f5;
+    height: 100%;
+    display: block;
+}
+
+.footer * {
+    font-family: "Noto Sans KR","Sans-serif";
+}
+
+footer {
+    display: block;
+}
+
+footer * {
+    font-family: "NotoSansKR","Sans-serif";
+}
+
+.footer {
+    min-width: 1080px;
+    background-color: #f5f5f5;
+    margin-top: 64px;
+}
+
+.footer-container {
+    padding: 0 0 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+}
+
+.footer-service-menu-list {
+    display: flex;
+    align-items: center;
+    padding: 16px 0px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    justify-content: space-between;
+}
+
+.footer-service-menu {
+    display: flex;
+}
+
+.footer-company-sns {
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.footer-service-menu-title {
+    font-size: 14px;
+    line-height: 24px;
+    color: #616161;
+    font-weight: bold;
+    width: 99px;
+    margin-right: 16px
+}
+
+.footer-service-menu-item {
+    font-size: 13px;
+    line-height: 20px;
+    color: #616161;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-service-menu-item>img {
+    margin-right: 4px
+}
+
+.sns-icon {
+    display: inline-flex;
+    border: 1.2px solid #e0e0e0;
+    padding: 7px;
+    border-radius: 32px;
+    height: 32px;
+    width: 32px;
+    box-sizing: border-box;
+}
+
+.footer-company-sns a+a {
+    margin-left: 16px;
+}
+
+.footer-main {
+    padding-bottom: 32px;
+    margin-top: 32px;
+}
+
+
+.footer-menu-title {
+    display: flex;
+    margin-bottom: 4px;
+    gap: 4px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #616161;
+    font-weight: bold;
+}
+
+.footer-cs-tel {
+    font-size: 24px;
+    line-height: 36px;
+    color: #616161;
+    font-weight: bold;
+}
+
+.footer-cs-info {
+    margin-top: 8px;
+}
+
+.footer-cs-item {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    color: #616161;
+}
+
+.footer-cs-subitem {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9e9e9e;
+    margin-left: 6px;
+    margin-bottom: 4px;
+}
+
+
+.footer-menu-item {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    display: block;
+    color: #616161;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.footer-menu-list {
+    float: left;
+    width: 185px;
+}
+
+a.footer-menu-title {
+    display: flex;
+    align-items: center;
+}
+
+a.link-title::after {
+    content: "";
+    display: inline-block;
+    background-size: 12px 12px;
+    margin-left: 2px;
+    height: 12px;
+    width: 12px;
+    background-image: url(https://www.wishket.com/static/renewal/img/global/btn-icon-footer-go-xs-normal.png);
+}
+
+.footer-service-policy {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.footer-service-policy-item {
+    font-size: 13px;
+    line-height: 20px;
+    color: #616161;
+}
+
+.footer-service-policy>.divider {
+    margin: 0px 12px;
+    width: 1px;
+    height: 13px;
+    background-color: #e0e0e0;
+}
+
+.footer-company-info {
+    display: grid;
+    grid-gap: 4px;
+    padding-top: 12px;
+}
+
+.footer-company-info-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-company-info-item {
+    font-size: 12px;
+    line-height: 18px;
+    color: #9e9e9e;
+}
+
+.footer-company-info-list>.divider {
+    width: 1px;
+    height: 12px;
+    background-color: #e0e0e0;
+    margin: 0px 8px;
+}
+
+.footer-company-info-copyright {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9e9e9e;
+}
+
+.footer-main>.footer-tel-menu {
+    width: 292px;
+    margin-right: 48px;
+    float: left;
+}
+
+.footer-menu-list>p {
+    margin-bottom: 12px;
+}
+
+.footer-menu-list>a {
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.footer-menu-list>a:hover, .footer-service-policy>.footer-service-policy-item:hover {
+    text-decoration: underline;
+}
+
+a.footer-cs-tel:hover {
+    text-decoration: none;
+}
+
+.sns-icon:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
