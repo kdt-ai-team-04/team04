@@ -13,7 +13,7 @@
         <img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=3892172&amp;fmt=gif" style="display:none;" width="1"/>
     </noscript>
         <header class="header">
-            <section class="base-nav-guest-renewal" style="background-color: #fff;">
+            <section class="base-nav-guest-renewal" width="1338px" style="background-color: #fff;" >
                 <div class = "header-service-nav">
                     <div class="container">
                         <div class="btn-service-link wishket">
@@ -23,7 +23,7 @@
                     </div>
                     <div class="divider"></div>
                     <div class="btn-service-link other-services yozmit">
-                        <img class="menu-inactive" src="https://www.wishket.com/static/renewal/img/global/gnb_yozmit_inactive.svg">
+                        <img class="menu-inactive" src="https://www.wishket.com/static/renewal/img/global/gnb_yozmit_inactive.svg" width="14px" height="20px">
                         
                         <div class="service-name text700 caption-1">요즘 IT</div>
                         </div>
@@ -136,31 +136,60 @@ href="#" style="background-image: url(&quot;https://cdn.wishket.com/guide/%EB%B9
     <div class="container project-list-view">
         <form id="searchProjectListForm" onsubmit="return false;">
             <div class="search-header">
-                <div class="page-title subtitle-1-medium">프로젝트 찾기</div>
-                <div class="text-search-box" id="inner_text_search_box">
-                    <select class="wishket-select theme-wishket text-search-type"></select>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-            
+                <div class="page-title subtitle-1-medium" style="display: inline-block; font-weight: 500;">
+                    프로젝트 찾기</div>
+                <div class="text-search-box" id="inner_text_search_box" >
+                    <select class="wishket-select theme-wishket text-search-type" name="text_search_type"
+                    style="display:none;">
+                        <option value="a">전체</option>
+                        <option value="a">전체</option>
+                        <option value="t">제목</option>
+                        <option value="s">관련 기술</option>
+                        <option value="d">프로젝트 내용</option>
+                </select>
+                <div class="ui-select wishket-select theme-wishket text-search-type" tabindex="0"
+                style="width:100%;">
+                    <span class="select-box" style="height: 42px;">
+                        <p class="select-name">전체</p>
+                        <i class="select-icon">
+                            <svg class="select-icon" xmlns="http://www.w3.org/2000/svg" 
+                            width="14" height="14" viewBox="0 0 14 14">
+                                <path fill="none" fill-rule="evenodd" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M1 4l6 6 6-6">
+                                
+                            </path>
+                        </svg>
+                            
+                        </i>
+                    </span>
+                    <p class="selectBg"></p>
+                    <ul class="select-dropdown">
+                        <li data-select-value="a">전체</li>
+                        <li data-select-value="t">제목</li>
+                        <li data-select-value="s">관련 기술</li>
+                        <li data-select-value="d">프로젝트 내용</li>
+                    </ul>
                 </div>
-            </div>
-        </form>
+                <div class="default-input-type icon-right">
+                    <input autocomplete="off" class="theme-wishket wishket-text search-text"
+                    data-input-type="text-input" name="search_text" type="text" style="padding-right : 48px; height: 42px;">
+                    <span class="text-unit active" data-action-icon="search">
+                        <!-- <img src="img/icon-search@2x (1).png" srcset="img/icon-search.png 1x, 
+                        img/icon-search.png" style="margin-right:8px; cursor:pointer;">
+                            !-->
+                    </span> 
+                    
+                </div>
+                </div>
+
+    <div class="search-filter-group">
+        <div class="search-filter-btn-group">
+            <img class="btn-action-help-img active" src="img/img-bubble-project-filter@2x.png" style="width: 344px; height: 39px; display: inline-block;
+            position: absolute;">
+            <button class="btn-filter-action-chip text600" id="filterModalShowBtn">
+
+            </button>
+
+        </div>
 
 
 
@@ -171,39 +200,62 @@ href="#" style="background-image: url(&quot;https://cdn.wishket.com/guide/%EB%B9
         
 
 
-       
-<div class="footer-main">
-    <div class="footer-tel-menu footer-menu-list">
-        <p class="footer-menu-title" style="margin-bottom: 5px;">
-        <img src="https://www.wishket.com/static/renewal/img/news/icon_service_customer.png" alt="">고객 문의
-        </p>
-        <a href="tel:02-6925-4849" class="footer-cs-tel">02-6925-4849</a>
-        <div class="footer-cs-info">
-        <div class="footer-cs-item">10:00-18:00</div>
-        <div class="footer-cs-subitem">주말.공휴일 제외</div><br>
-        <a href="mailto:help@wishket.com" class="footer-cs-item">help@wishket.com</a>
-            
-
-        <div class="footer-menu-list">
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-service-menu-list">
+            <div class="footer-service-menu">
+                <div class="footer-service-menu-title">서비스 전체보기</div>
+                <a href="https://www.wishket.com/" class="footer-service-menu-item">
+                    <img src="https://www.wishket.com/static/renewal/img/news/img_service_symbol_1.png" alt="">위시켓
+                </a>
+                <a href="https://yozm.wishket.com/magazine/" class="footer-service-menu-item">
+                    <img src="https://wishket.com/static/renewal/img/news/img_service_symbol_3.png" alt="">요즘IT
+                </a>
+            </div>
+            <div class="footer-company-sns">
+                <a href="https://www.facebook.com/wishket" class="sns-icon" target="_blank">
+                    <img src="https://www.wishket.com/static/renewal/img/global/icon-footer-sns-facebook.png" alt="">
+                </a>
+                <a href="https://blog.wishket.com/" class="sns-icon" target="_blank">
+                    <img src="https://www.wishket.com/static/renewal/img/global/icon-footer-sns-blog.png" alt="">
+                </a>
+                <a href="https://blog.naver.com/wishket" class="sns-icon" target="_blank">
+                    <img src="https://www.wishket.com/static/renewal/img/global/icon-footer-sns-naver.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="footer-main">
+            <div class="footer-tel-menu footer-menu-list">
+                <p class="footer-menu-title" style="margin-bottom: 5px;">
+                    <img src="https://www.wishket.com/static/renewal/img/news/icon_service_customer.png" alt="">고객 문의
+                </p>
+                <a href="tel:02-6925-4849" class="footer-cs-tel">02-6925-4849</a>
+                <div class="footer-cs-info">
+                    <div class="footer-cs-item">10:00-18:00</div>
+                    <div class="footer-cs-subitem">주말.공휴일 제외</div><br>
+                    <a href="mailto:help@wishket.com" class="footer-cs-item">help@wishket.com</a>
+                </div>
+            </div>
+            <div class="footer-menu-list">
                 <p class="footer-menu-title" style="margin-bottom: 12px;">위시켓</p>
                 <a href="https://www.wishket.com/company-intro/" class="footer-menu-item">위시켓 소개</a>
                 <a href="https://www.wishket.com/trust-safety/" class="footer-menu-item">신뢰와 안전</a>
             </div>
             <div class="footer-menu-list">
                 <p class="footer-menu-title">이용방법</p>
-                <a href="" class="footer-menu-item">클라이언트 이용방법</a>
-                <a href="" class="footer-menu-item">파트너스 이용방법</a>
-                <a href="" class="footer-menu-item">이용요금</a>
+                <a href="https://www.wishket.com/customer-support/client/use-guide" class="footer-menu-item">클라이언트 이용방법</a>
+                <a href="https://www.wishket.com/customer-support/partner/use-guide" class="footer-menu-item">파트너스 이용방법</a>
+                <a href="https://www.wishket.com/customer-support/price/" class="footer-menu-item">이용요금</a>
             </div>
             <div class="footer-menu-list" style="margin-bottom: 30px;">
                 <p class="footer-menu-title">고객센터</p>
-                <a href="" class="footer-menu-item">클라이언트 고객센터</a>
-                <a href="" class="footer-menu-item">파트너스 고객센터</a>
+                <a href="https://www.wishket.com/customer-support/client/" class="footer-menu-item">클라이언트 고객센터</a>
+                <a href="https://www.wishket.com/customer-support/client/" class="footer-menu-item">파트너스 고객센터</a>
             </div>
             <div class="footer-menu-list" style="margin-bottom: 30px;">
-                <a href="" class="footer-menu-title link-title">뉴스센터</a>
-                <a href="" class="footer-menu-title link-title">위시켓 스토어</a>
-                <a href="" class="footer-menu-title link-title">통합빌링 서비스</a>
+                <a href="https://www.wishket.com/news-center/all/" class="footer-menu-title link-title">뉴스센터</a>
+                <a href="https://www.wishket.com/store/" class="footer-menu-title link-title">위시켓 스토어</a>
+                <a href="https://www.wishket.com/unity_bill/" class="footer-menu-title link-title">통합빌링 서비스</a>
             </div>
         </div>
         <div class="footer-service-policy" style="margin-top: 30px;">
