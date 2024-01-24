@@ -5,51 +5,323 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="wishket_product.css">
-    <title>요즘 작가들 | 요즘IT</title>
+    <title>IT프로덕트 이야기들 | 요즘IT</title>
 </head>
 
-<body>
-    <header>
-        <div class="header-service-nav">
-            <div class="container">
-                <a class="btn-service-link yozmit">
-                    <img src="gnb_yozmit.svg" alt="">
-                    <div class="service-name text700 caption-1">요즘IT</div>
-                </a>
-                <div class="divider">
-                </div>
-                <a class="btn-service-link other-services wishket">
-                    <img class="menu-inactive" src="gnb_wishket_inactive.svg" alt="">
-                    <div class="service-name caption-1">위시켓</div>
-                </a>
-            </div>
+
+<body class="author-list">
+    <!-- 헤더1 -->
+    <div class="header-service-nav">
+        <div class="container">
+            <a class="btn-service-link yozmit" href="https://yozm.wishket.com/">
+                <img src="https://yozm.wishket.com/static/renewal/img/global/gnb_yozmit.svg" alt="">
+                <div class="service-name text700 caption-1">요즘IT</div>
+            </a>
+            <div class="divider"></div>
+            <a class="btn-service-link other-services wishket" href="https://wishket.com/">
+                <img class="menu-inactive"
+                    src="https://yozm.wishket.com/static/renewal/img/global/gnb_wishket_inactive.svg">
+                <img class="menu-active" src="https://yozm.wishket.com/static/renewal/img/global/gnb_wishket.svg">
+                <div class="service-name caption-1">위시켓</div>
+            </a>
         </div>
-        <div class="header-gnb">
-            <div class="container">
-                <div class="header-gnb-wrapper">
-                    <a class="sub-navigation-logo" href="">
-                        <img src="image/yozm-logo.png">
+    </div>
+
+    <!-- 헤더2 -->
+    <div class="header-gnb">
+        <div class="container">
+            <div class="header-gnb-wrapper">
+                <a class="sub-navigation-logo" href="https://yozm.wishket.com/magazine/">
+                    <img src="https://yozm.wishket.com/static/renewal/img/news/yozm-logo.png">
+                </a>
+                <div class="sub-navigation-wrapper flex-box pc-only">
+                    <a class="sub-navigation new-menu" href="https://yozm.wishket.com/magazine/list/new/">
+                        <div class="body-2-medium text900">
+                            새로 나온
+                            <img src="https://yozm.wishket.com/static/renewal/img/news/icon_menu_new.png"
+                                style="display: inline-block">
+                        </div>
                     </a>
-                    <div class="sub-navigation-wrapper flex-box pc-only">
-                        <a href="" class="sub-navigation new-menu">
-                            <div class="body-2-medium text900">
-                                "새로 나온"
-                                <img src="image/icon_menu_new.png" alt="" style="display: inline-block">
-                            </div>
-                        </a>
-                        <a href="" class="sub-navigation">
-                            <div class="body-2-medium text900">인기</div>
-                        </a>
-                        <a href="" class="sub-navigation">
-                            <div class="body-2-medium text900">요즘 작가들</div>
-                        </a>
-                    </div>
-
+                    <a class="sub-navigation" href="https://yozm.wishket.com/magazine/list/popular/">
+                        <div class="body-2-medium text900">인기</div>
+                    </a>
+                    <a class="sub-navigation" href="https://yozm.wishket.com/magazine/authors/">
+                        <div class="body-2-medium text900">요즘 작가들</div>
+                    </a>
+                    <a class="sub-navigation new-menu" href="https://yozm.wishket.com/magazine/questions/">
+                        <div class="body-2-medium text900">
+                            물어봐
+                            <img src="https://yozm.wishket.com/static/renewal/img/news/icon_ai_s.svg">
+                        </div>
+                    </a>
                 </div>
+                <div class="icon-box">
+                    <div class="btn search-box flex-box">
+                        <img src="https://yozm.wishket.com/static/renewal/img/news/icon_gnb_search.png">
+                        <p class="body-2 text400">키워드, 작가 이름 검색하기</p>
+                    </div>
+                    <a class="btn apply-author is-login btn-common-2 btn-white-none-border text700"
+                        href="https://answer.moaform.com/answers/WyvXJe">작가 지원</a>
+                    <div class="divider only-pc"></div>
+                    <img class="icon search-icon only-mobile"
+                        src="https://yozm.wishket.com/static/renewal/img/news/icon_m_gnb_search.png">
+                    <div class="button-group-box" id="buttonGroupBox">
+                        <a class="btn btn-common-2 btn-white-none-border text700"
+                            href="https://yozm.wishket.com/wishket-member/login/?next=/magazine/authors/">로그인</a>
+                        <a class="btn btn-common-2 btn-violet"
+                            href="https://account.wishket.com/wishket-member/signup/?next=/magazine/authors/">회원가입</a>
+                    </div>
+                    <div id="menuHamburger">
+                        <img class="icon" src="https://yozm.wishket.com/static/renewal/img/news/icon_m_gnb_menu.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--헤더3 -->
+    <div class="header-snb">
+        <div class="container">
+            <div class="sub-navigation-wrapper flex-box mobile-only"></div>
+            <a class="sub-navigation" href="https://yozm.wishket.com/magazine/list/plan/">
+                <div>기획</div>
+            </a>
+            <a class="sub-navigation" href="https://yozm.wishket.com/magazine/list/plan/">
+                <div>디자인</div>
+            </a>
+            <a class="sub-navigation" href="https://yozm.wishket.com/magazine/list/plan/">
+                <div>개발</div>
+            </a>
+            <a class="sub-navigation" href="https://yozm.wishket.com/magazine/list/plan/">
+                <div>프로덕트</div>
+            </a>
+            <a class="sub-navigation" href="https://yozm.wishket.com/magazine/list/plan/">
+                <div>아웃소싱</div>
+            </a>
+            <a class="sub-navigation" href="https://yozm.wishket.com/magazine/list/plan/">
+                <div>프리랜싱</div>
+            </a>
+            <a class="sub-navigation" href="https://yozm.wishket.com/magazine/list/plan/">
+                <div>비즈니스</div>
+            </a>
+            <a class="sub-navigation new-menu" href="https://yozm.wishket.com/magazine/list/plan/">
+                <div>IT서비스</div>
+                <img src="https://yozm.wishket.com/static/renewal/img/news/icon_menu_new.png"
+                    style="display: inline-block;">
+            </a>
+        </div>
+    </div>
+
+    <!--프로덕트-->
+    <div class="layout">
+        <div class="container">
+            <div class="list-title">
+                <div class="category-list title">
+                    <h2>프로덕트</h2>
+                </div>
+                <div class="btn-content-align flex-box">
+                    <a href="https://yozm.wishket.com/magazine/list/product/?sort=new" class="body-2 text700 active">최신순
+                    </a>
+                    <a href="https://yozm.wishket.com/magazine/list/product/?sort=popular" class="body-2 text700">인기순</a>
+                </div>
+            </div>
+            <!--바디 목록-->
+            <div class="list-cover">
+                <!--바디 목록1-->
+                <div class="list-item-link list-item-show">
+                    <div class="list-item">
+                        <div class="flex-box list-item-box">
+                            <div class="item-main text900">
+                                <a class="item-title link-text link-underline text900" href="https://yozm.wishket.com/magazine/detail/2417/">그랩에는 있고, 배민에는 없는 것?</a>
+                                <div class="content-meta flex-box">
+                                    <img class="content-meta-elem meta-icon mr-4" src="https://yozm.wishket.com/static/renewal/img/news/icon-clock.png">
+                                    <div class="content-meta-elem">8분</div>
+                                    <div class="content-meta-elem content-meta-sep">|</div>
+                                    <div class="content-meta-elem">2024.01.16.</div>
+                                </div>
+                                <a href="https://yozm.wishket.com/magazine/detail/2417/">
+                                    <p class="item-description" style="display: -webkit-box; overflow: hidden; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                        그랩은 여행객들에게는 동남아의 필수 앱이라 불리며 매출과 영업이익 측면에서 성장세를 이어가고 있습니다. 오늘은 그랩의 다양한 서비스 중에서도 '배달' 서비스에 집중하여, 제가 직접 체험 및 경험한 바를 이야기해 보려고 합니다. 특히 한국의 대표적인 배달앱인 '배달의민족(이하 배민)'과의 비교를 통해, 배민에는 없지만 그랩에는 있는 기능 위주로 살펴보겠습니다.</p>
+                                </a>
+                            </div>
+                            <div class="item-thumbnail-pc">
+                                <a href="https://yozm.wishket.com/magazine/detail/2417/">
+                                    <img class="thumbnail-image" src="https://yozm.wishket.com/media/news/2417/%EC%9A%94%EC%A6%98IT__12_.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex-box author-box" style="justify-content: space-between;">
+                            <div class="author-info flex-box">
+                                <img class="author-image" src="https://cdn.wishket.com/news_profiles/249204_20230913_a1d9eedb36a97354.png">
+                                <p class="author-name">
+                                    <a class="text400 link-underline-text" href="https://yozm.wishket.com/magazine/@jhjh126/">이재훈</a>
+                                </p>
+                            </div>
+                            <div class="btn-wrapper">
+                                <button class="btn-action btn-icon-edit-scrap" onclick="window.location.href='/wishket-member/login/?next=/magazine/'" type="button">
+                                    <p class="action-tooltip bottom-action caption-2 edit-scrap-off">
+                                        스크랩
+                                    </p>
+                                    <div class="edit-scrap-off">
+                                        <img src="https://yozm.wishket.com/static/renewal/img/news/icon_toolbar_scrap_off.png">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--바디 목록 2-->
+                <div class="list-item-link list-item-show">
+                    <div class="list-item">
+                        <div class="flex-box list-item-box">
+                            <div class="item-main text900">
+                                <a class="item-title link-text link-underline text900" href="https://yozm.wishket.com/magazine/detail/2417/">쿠팡이 품은 파페치, 제대로 알아봅시다</a>
+                                <div class="content-meta flex-box">
+                                    <img class="content-meta-elem meta-icon mr-4" src="https://yozm.wishket.com/static/renewal/img/news/icon-clock.png">
+                                    <div class="content-meta-elem">9분</div>
+                                    <div class="content-meta-elem content-meta-sep">|</div>
+                                    <div class="content-meta-elem">2024.01.12.</div>
+                                </div> 
+                                <a href="https://yozm.wishket.com/magazine/detail/2413/">
+                                    <p class="item-description" style="display: -webkit-box; overflow: hidden; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                        작년 12월 쿠팡이 갑자기 파페치를 인수한다는 소식이 전해졌습니다. 쿠팡은 이제 국내 최대 규모의 리테일 기업인 동시에, 네이버, 
+                                        카카오의 뒤를 잇는 빅테크 기업이기도 한데요. 이처럼 쿠팡의 행보는 여러모로 매우 중요한 의미를 가지기에, 오늘은 파페치라는 서비스에 대해
+                                        파헤쳐 보는 시간을 가져보고자 합니다. 첫 탕생부터 어떤 이유로 성장해 왔고, 결국 매각이라는 극약처방을 택할 수밖에 없었는지를 살펴보고요. 
+                                        이를 바탕으로 향후 쿠팡이 어떤 변화를 불러올지까지 간단히 전망해보겠습니다.
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="item-thumbnail-pc">
+                                <a href="https://yozm.wishket.com/magazine/detail/2413/">
+                                    <img class="thumbnail-image" src="https://yozm.wishket.com/media/news/2413/image3.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex-box author-box" style="justify-content: space-between;">
+                            <div class="author-info flex-box">
+                                <img class="author-image" src="https://cdn.wishket.com/news_profiles/244519_20230718_9a88b65e28577b9b.jpg">
+                                <p class="author-name">
+                                    <a class="text400 link-underline-text" href="https://yozm.wishket.com/magazine/@jhjh126/">기묘한</a>
+                                </p>
+                            </div>
+                            <div class="btn-wrapper">
+                                <button class="btn-action btn-icon-edit-scrap" onclick="window.location.href='/wishket-member/login/?next=/magazine/'" type="button">
+                                    <p class="action-tooltip bottom-action caption-2 edit-scrap-off">
+                                        스크랩
+                                    </p>
+                                    <div class="edit-scrap-off">
+                                        <img src="https://yozm.wishket.com/static/renewal/img/news/icon_toolbar_scrap_off.png">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--바디 목록3-->
+                <div class="list-item-link list-item-show">
+                    <div class="list-item">
+                        <div class="flex-box list-item-box">
+                            <div class="item-main text900">
+                                <a class="item-title link-text link-underline text900" href="https://yozm.wishket.com/magazine/detail/2400/">누구나 크리에이터 되는 시대, 이미지 생성 AI 빅3 비교</a>
+                                <div class="content-meta flex-box">
+                                    <img class="content-meta-elem meta-icon mr-4" src="https://yozm.wishket.com/static/renewal/img/news/icon-clock.png">
+                                    <div class="content-meta-elem">9분</div>
+                                    <div class="content-meta-elem content-meta-sep">|</div>
+                                    <div class="content-meta-elem">2024.01.05.</div>
+                                </div>
+                                <a href="https://yozm.wishket.com/magazine/detail/2417/">
+                                    <p class="item-description" style="display: -webkit-box; overflow: hidden; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                        우리 앞에 등장한 생성형 AI 기술로 인해 크리에이터가 되기 위한 장벽은 점점 낮아지고 있습니다. 
+                                        누구나 영감(Inspiration)만 있다면 AI 도구를 활용해 내 작품을 만들 수 있는 시대가 된 것이죠. 
+                                        그래서 대표적인 이미지 생성 AI 툴 달리3(DALL-E3)와 미드저니(Midjourney), vkdldjvmffkdl(Adobe Firefly)를
+                                        비교해 보고자 합니다. 이번 글에서는 같은 프롬프트를 입력해 각 툴에서 이미지를 만들어 보았습니다.
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="item-thumbnail-pc">
+                                <a href="https://yozm.wishket.com/magazine/detail/2400/">
+                                    <img class="thumbnail-image" src="https://yozm.wishket.com/media/news/2400/image7.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex-box author-box" style="justify-content: space-between;">
+                            <div class="author-info flex-box">
+                                <img class="author-image" src="https://cdn.wishket.com/news_profiles/245602_20230718_cc0da4aeabdb00db.jpg">
+                                <p class="author-name">
+                                    <a class="text400 link-underline-text" href="https://yozm.wishket.com/magazine/@travlr/">최프로</a>
+                                </p>
+                            </div>
+                            <div class="btn-wrapper">
+                                <button class="btn-action btn-icon-edit-scrap" onclick="window.location.href='/wishket-member/login/?next=/magazine/'" type="button">
+                                    <p class="action-tooltip bottom-action caption-2 edit-scrap-off">
+                                        스크랩
+                                    </p>
+                                    <div class="edit-scrap-off">
+                                        <img src="https://yozm.wishket.com/static/renewal/img/news/icon_toolbar_scrap_off.png">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--바디 목록 4-->
+                <div class="list-item-link list-item-show">
+                    <div class="list-item">
+                        <div class="flex-box list-item-box">
+                            <div class="item-main text900">
+                                <a class="item-title link-text link-underline text900" href="https://yozm.wishket.com/magazine/detail/2417/">쿠팡이 품은 파페치, 제대로 알아봅시다</a>
+                                <div class="content-meta flex-box">
+                                    <img class="content-meta-elem meta-icon mr-4" src="https://yozm.wishket.com/static/renewal/img/news/icon-clock.png">
+                                    <div class="content-meta-elem">9분</div>
+                                    <div class="content-meta-elem content-meta-sep">|</div>
+                                    <div class="content-meta-elem">2024.01.12.</div>
+                                </div> 
+                                <a href="https://yozm.wishket.com/magazine/detail/2413/">
+                                    <p class="item-description" style="display: -webkit-box; overflow: hidden; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                        작년 12월 쿠팡이 갑자기 파페치를 인수한다는 소식이 전해졌습니다. 쿠팡은 이제 국내 최대 규모의 리테일 기업인 동시에, 네이버, 
+                                        카카오의 뒤를 잇는 빅테크 기업이기도 한데요. 이처럼 쿠팡의 행보는 여러모로 매우 중요한 의미를 가지기에, 오늘은 파페치라는 서비스에 대해
+                                        파헤쳐 보는 시간을 가져보고자 합니다. 첫 탕생부터 어떤 이유로 성장해 왔고, 결국 매각이라는 극약처방을 택할 수밖에 없었는지를 살펴보고요. 
+                                        이를 바탕으로 향후 쿠팡이 어떤 변화를 불러올지까지 간단히 전망해보겠습니다.
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="item-thumbnail-pc">
+                                <a href="https://yozm.wishket.com/magazine/detail/2413/">
+                                    <img class="thumbnail-image" src="https://yozm.wishket.com/media/news/2413/image3.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex-box author-box" style="justify-content: space-between;">
+                            <div class="author-info flex-box">
+                                <img class="author-image" src="https://cdn.wishket.com/news_profiles/244519_20230718_9a88b65e28577b9b.jpg">
+                                <p class="author-name">
+                                    <a class="text400 link-underline-text" href="https://yozm.wishket.com/magazine/@jhjh126/">기묘한</a>
+                                </p>
+                            </div>
+                            <div class="btn-wrapper">
+                                <button class="btn-action btn-icon-edit-scrap" onclick="window.location.href='/wishket-member/login/?next=/magazine/'" type="button">
+                                    <p class="action-tooltip bottom-action caption-2 edit-scrap-off">
+                                        스크랩
+                                    </p>
+                                    <div class="edit-scrap-off">
+                                        <img src="https://yozm.wishket.com/static/renewal/img/news/icon_toolbar_scrap_off.png">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
 
             </div>
         </div>
-    </header>
+
+    </div>
 
 </body>
 
