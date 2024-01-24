@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <section class="base-nav">
+            <div class="header-service-nav">
+                <div class="container">
+                    <div class="btn-service-link" onclick="location.href='https://wishket.com/'">
+                        <img src="https://www.wishket.com/static/renewal/img/global/gnb_wishket.svg" alt="">
+                        <div class="service-name service-name1">위시켓</div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="btn-service-link other-services" onclick="location.href='https://yozm.wishket.com/'"></div>
+                    <img src="https://www.wishket.com/static/renewal/img/global/gnb_yozmit_inactive.svg" alt="" class="menu-inactive">
+                    <img src="https://www.wishket.com/static/renewal/img/global/gnb_yozmit.svg" alt="" class="menu-active">
+                    <div class="service-name service-name2">요즘IT</div>
+                </div>
+            </div>
+            <div class="container">
+                <a href="https://www.wishket.com/">
+                    <div class="nav-logo-wrapper">
+                        <div class="nav-logo"></div>
+                    </div>
+                </a>
+                <div class="left-nav">
+                    <a href="https://www.wishket.com/project/create/">
+                        <div class="left-nav-menu">프로젝트 등록</div>
+                    </a>
+                    <a href="https://www.wishket.com/project/#clear">
+                        <div class="left-nav-menu">프로젝트 찾기</div>
+                    </a>
+                    <a href="https://www.wishket.com/partners/#">
+                        <div class="left-nav-menu">파트너스 찾기</div>
+                    </a>
+                    <div class="dropdown-container">
+                        <a href="https://www.wishket.com/customer-support/client/use-guide">
+                            <div class="left-nav-menu" id="how-to-use">
+                                이용방법
+                                <div class="img-container">
+                                    <img src="https://www.wishket.com/static/renewal/img/global/Arrow@2x.png" style="width: 14px;" alt="">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="dropdown-list">
+                           <!-- 드롭 다운 메뉴 -->
+                        </div>
+                    </div>
+                    <div class="dropdown-container">
+                        <a href="https://www.wishket.com/postscript/">
+                            <div class="left-nav-menu" id="after-use">
+                                이용후기
+                                <div class="img-container">
+                                    <img src="https://www.wishket.com/static/renewal/img/global/new-sign@2x.png" style="width: 14px;"alt="">
+                                </div>
+                                <div class="img-container">
+                                    <img src="https://www.wishket.com/static/renewal/img/global/Arrow@2x.png" style="width: 14px;" alt="">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="dropdown-list">
+                           <!-- 드롭 다운 메뉴 -->
+                        </div>
+                    </div>
+                    <div class="nav-divider"></div>
+                    <a href="https://www.wishket.com/store/">
+                        <div class="left-nav-menu nav-store">스토어</div>
+                    </a>
+                </div>
+                <div class="right-nav">
+                    <a href="https://account.wishket.com/wishket-member/login/?next=/store/">
+                        <div class="log-in-section">
+                            로그인
+                        </div>
+                    </a>
+                    <a href="https://account.wishket.com/wishket-member/signup/?next=/store/">
+                        <div class="sign-up-button">
+                            회원가입
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <div id="main-wrap">
+        <div class="main-container">
+            <div id="messages"></div>
+        </div>
+        <div class="main-page">
+            <div class="main-content">
+                <div class="content-header">
+                    <div class="store-header-box">
+                        <h3 class="store-big-text">파트너스 찾기</h3>
+                        <p class="store-small-text">121,570명의 파트너스가 있습니다.</p>
+                    </div>
+                    <section class="search">
+                        <form action="." class="form-inline">
+                            <input type="hidden" name="search-input">
+                            <div class="form-group">
+                                <input type="text" class="search-real-input">
+                            </div>
+                            <div class="form-group">
+                                <input type="button" class="btn" value="검색">
+                            </div>
+                    </section>
+                </div>
+                <div class="content-inner">
+                    <section class="list-filter-section">
+                        <div class="partners-filter-box">
+                            <div class="filter-box-title">파트너스 필터</div>
+                            <div class="selector-list">
+                                <div class="selector-list-title">
+                                    선호 프로젝트 형태
+                                    <div class="inhouse-help-text-box">
+                                        <img src="https://www.wishket.com/static/img/account/tooltip.png" alt="">
+                                    <div class="inhouse-help-text">
+                                        <div>
+                                            <span class="inhouse-help-text-title">외주(도급) 프로젝트</span><br>
+                                            <span class="inhouse-help-text-sub">약속된 작업 범위의 업무를 수행하고, 정해진 기간 내 결과물을 납품하는 파트너</span><br>
+                                        </div>
+                                        <div>
+                                            <span class="inhouse-help-text-title">기간제(상주) 프로젝트</span><br> 
+                                            <span class="inhouse-help-text-sub">근무해야 하는 시간과 장소가 정해져 있고, 일정 기간 동안 근무를 하는 파트너</span><br>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="selector-item-list">
+                                    <div class="selector-item">
+                                        <input type="checkbox" id="task_based" name="prefer">
+                                        <label for="task_based">외주(도급)</label>
+                                    </div>
+                                    <div class="selector-item">
+                                        <input type="checkbox" name="prefer" id="term_based">
+                                        <label for="term_based">기간제(상주)</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 내용 다시 확인하면서 채워야해요 -->
+                            <div class="selector-list">
+                                <div class="selector-list-title">
+                                    선호 프로젝트 형태
+                                    <div class="inhouse-help-text-box">
+                                        <img src="https://www.wishket.com/static/img/account/tooltip.png" alt="">
+                                    <div class="inhouse-help-text">
+                                        <div>
+                                            <span class="inhouse-help-text-title">외주(도급) 프로젝트</span><br>
+                                            <span class="inhouse-help-text-sub">약속된 작업 범위의 업무를 수행하고, 정해진 기간 내 결과물을 납품하는 파트너</span><br>
+                                        </div>
+                                        <div>
+                                            <span class="inhouse-help-text-title">기간제(상주) 프로젝트</span><br> 
+                                            <span class="inhouse-help-text-sub">근무해야 하는 시간과 장소가 정해져 있고, 일정 기간 동안 근무를 하는 파트너</span><br>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="selector-item-list">
+                                    <div class="selector-item">
+                                        <input type="checkbox" id="task_based" name="prefer">
+                                        <label for="task_based">외주(도급)</label>
+                                    </div>
+                                    <div class="selector-item">
+                                        <input type="checkbox" name="prefer" id="term_based">
+                                        <label for="term_based">기간제(상주)</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 여기까지 박스 하나로 선택하면 편할것같아요! 
+                            파트너 직종이랑 파트너 형태는 체크박스 형태니까 똑같이 코드 작성하시면 될 것 같습니다
+                            파트너 지역은 눌렀을 때 리스트는 다 안나와도 되니 화면 구현먼저 해보는게 좋을 것 같아요!-->
+                        </div>
+                    </section>
+                    <section class="list-content-section">
+                        <div class="list-sort-box">
+                            <div class="sort-item-list">
+                                <div class="sort-item" id="active">
+                                    <img src="https://www.wishket.com/static/img/project/icon_sorting_check.png">기본 정렬 순</div>
+                                    <div class="sort-item">
+                                        <img src="https://www.wishket.com/static/img/project/icon_sorting_check.png">평점 높은 순</div>
+                                        <div class="sort-item">
+                                            <img src="https://www.wishket.com/static/img/project/icon_sorting_check.png">포트폴리오 많은 순</div>
+                                            <div class="sort-item">
+                                                <img src="https://www.wishket.com/static/img/project/icon_sorting_check.png">최근 업데이트 순
+                                            </div>
+                                        </div>
+                        </div>
+                        <div id="partners-list-box">
+                            <input type="hidden" id="partners_count" value="121,570">
+                            <section class="partners-unit active-partners-unit">
+                                <section class="partners-basic-info">
+                                    <div class="partners-object">
+                                        <a class="partners-unit-link" href="https://account.wishket.com/wishket-member/login/?next=/partners/p/pnsoft_inc/"><img alt="파트너스 프로필 이미지" class="partners-profile-image" src="https://cdn.wishket.com/profiles/117579_20210312_242c0da40d0d60ca.png"></a>
+                                    </div>
+                                    <section class="partners-basic-info-body">
+                                        <div class="partners-unit-heading">
+                                            <h4 class="partners-username">
+                                                <a class="partners-unit-username-link" href="">
+                                                    pnsoft_inc
+                                                </a>
+                                            </h4>
+                                                <a class="partners-unit-username-link" href="">
+                                                    <span class="label label-sm label-partners-availability possible">활동가능</span>
+                                                </a>
+                                            </div>
+                                            <section class="partners-business-info">
+                                                <a class="partners-unit-link" href="https://account.wishket.com/wishket-member/login/?next=/partners/p/pnsoft_inc/">
+                                                    <span class="job">
+                                                        <i class="fa fa-keyboard-o"></i> 
+                                                        개발
+                                                    </span>
+                                                </a> 
+                                                <a class="partners-unit-link" href="https://account.wishket.com/wishket-member/login/?next=/partners/p/pnsoft_inc/">
+                                                    <span class="form-of-business">
+                                                        <i class="fa fa-building-o"></i> 
+                                                        법인사업자
+                                                    </span>
+                                                </a>
+                                            </section>
+                                            <a class="partners-unit-link" href="https://account.wishket.com/wishket-member/login/?next=/partners/p/pnsoft_inc/"></a>
+                                            <section class="partners-desc">
+                                                <a href="">
+                                                    <p>저희는 홈페이지와 서비스에 마음을 담습니다. 고객사 입장에서 고민하고 사용자의 경험을 소중하게 여깁니다. 안녕하세요? 저희는 10년이상 기획,디자인,개발 전문 인력을 주축으로 실력과 안정성을 확보한 회사입니다. 저희가 주력으로 하는 분야...</p>
+                                                </a>
+                                            </section>
+                                            <section class="partners-skill-list">
+                                                <a href="/">
+                                                    <span class="partners-skill label-skill">Php</span> 
+                                                    <span class="partners-skill label-skill">Javascript</span> 
+                                                    <span class="partners-skill label-skill">하드웨어 연동, Iot연동</span> 
+                                                    <span class="partners-skill label-skill">Ios 앱 개발</span> 
+                                                    <span class="partners-skill label-skill">Android 앱 개발</span> 
+                                                    <span class="partners-skill label-skill">Objective-C</span> 
+                                                    <span class="partners-skill label-skill">Swift</span> 
+                                                    <span class="partners-skill label-skill">Kotlin</span> 
+                                                    <span class="partners-skill label-skill">디자인(피그마,포토샵)</span> 
+                                                    <span class="partners-skill label-skill">서비스 기획, 사업 기획</span> 
+                                                    <span class="partners-skill label-skill">C , C++, Asp.Net,...</span> 
+                                                    <span class="partners-skill label-skill">Spring</span> 
+                                                    <span class="partners-skill label-skill">Shell</span> 
+                                                    <span class="partners-skill label-skill">Django</span> 
+                                                    <span class="partners-skill label-skill">라라벨</span> 
+                                                    <span class="partners-skill label-skill">React.Js</span> 
+                                                    <span class="partners-skill label-skill">Next.Js</span> 
+                                                    <span class="partners-skill label-skill">Vue.Js</span> 
+                                                    <span class="partners-skill label-skill">Node(Express,Nest)</span> 
+                                                    <span class="partners-skill label-skill">Flutter</span> 
+                                                    <span class="partners-skill label-skill">React Native</span> 
+                                                    <span class="partners-skill label-skill">Codeigniter</span> 
+                                                    <span class="partners-skill label-skill">Java</span> 
+                                                    <span class="partners-skill label-skill">Ai, 딥러닝, Opencv</span> 
+                                                    <span class="partners-skill label-skill">Aws, Docker</span> 
+                                                    <span class="partners-skill label-skill">쇼핑몰</span> 
+                                                    <span class="partners-skill label-skill">라이브 스트리밍</span> 
+                                                    <span class="partners-skill label-skill">Python</span> 
+                                                    <span class="partners-skill label-skill">Webrtc</span> 
+                                                    <span class="partners-skill label-skill">Typescript</span>
+                                                </a>
+                                            </section>
+
+                                <section class="partners-additional-info">
+                                    <!-- 여기에 별점 있는 파트만 넣으면 될 것 같아요 -->
+
+                                </section>            
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
